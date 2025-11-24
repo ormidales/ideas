@@ -38,7 +38,6 @@ Build a React.js single-page application named 'TerraSculpt' using Vite for setu
      - `defaultWidth`, `defaultHeight`: Numbers representing the initial pixel dimensions for display on the canvas.
 
 **Initial Mock Assets for `src/assetsData.ts`:**
-```typescript
 export const assets = [
   { id: 'm1', name: 'Cushion Moss', category: 'Moss', imageSrc: '/moss-cushion.png', description: 'A lush, green, domed moss, perfect for adding texture.', compatibilityTags: ['highHumidity', 'lowLight'], careInfo: 'Requires consistent moisture and indirect light. Do not let dry out.', defaultWidth: 80, defaultHeight: 80 },
   { id: 'm2', name: 'Sheet Moss', category: 'Moss', imageSrc: '/moss-sheet.png', description: 'Flat, spreading moss, great for ground cover.', compatibilityTags: ['mediumHumidity', 'lowLight'], careInfo: 'Tolerates drier periods but prefers consistent humidity. Mist regularly.', defaultWidth: 120, defaultHeight: 60 },
@@ -48,7 +47,6 @@ export const assets = [
   { id: 's2', name: 'Volcanic Soil', category: 'Substrate', imageSrc: '/substrate-volcanic.png', description: 'Porous soil, good for drainage and root aeration.', compatibilityTags: ['mediumHumidity'], careInfo: 'Provides essential minerals and good drainage. Use as an active layer.', defaultWidth: 200, defaultHeight: 100 },
   { id: 'd1', name: 'Miniature Mushroom', category: 'Decor', imageSrc: '/decor-mushroom.png', description: 'Cute decorative mushroom figurine, adds a touch of whimsy.', compatibilityTags: ['none'], careInfo: 'No special care required. Simply place and enjoy.', defaultWidth: 30, defaultHeight: 30 },
 ];
-```
 
 **4. AssetPanel Component (src/components/AssetPanel.tsx):**
    - Display assets grouped by 'Moss', 'Substrate', 'Hardscape', 'Decor' in collapsable sections.
